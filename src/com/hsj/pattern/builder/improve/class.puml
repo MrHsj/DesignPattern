@@ -1,0 +1,35 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+
+abstract class HouseBuilder
+class House{
+    public House
+    void test();
+    void test1();
+    void test3()
+    void test2()
+}
+class HighBuilding
+
+House <|-- HouseBuilder
+
+'List <|-- AbstractList
+'Collection <|-- AbstractCollection
+'
+'Collection <|- List
+'AbstractCollection <|- AbstractList
+'AbstractList <|-- ArrayList
+'
+'class ArrayList {
+'Object[] elementData
+'size()
+'}
+'
+'enum TimeUnit {
+'DAYS
+'HOURS
+'MINUTES
+'}
+
+@enduml
